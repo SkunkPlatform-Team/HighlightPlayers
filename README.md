@@ -8,16 +8,18 @@
 
 To evaluate the script in Roblox using a URL, follow these steps:
 
-1. Inject your Executor Client-Side or Open Developer Console.
-2. Read the Example Usage for the Eval with URL:
+1. Inject your Client-Side Executor or open the Developer Console.
+2. Use the example usage for evaluating with the URL:
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SkunkPlatform-Team/HighlightPlayers/refs/heads/main/bin/main.lua?token=GHSAT0AAAAAAC3QCX5T7EJJJFAU6WEXNDFEZ3MEGVQ"))()
 -- Ensure you are the owner of the game or using an executor on the client side.
 ```
-3. Execute your Client-Side Executor or Developer Console
+3. Execute your Client-Side Executor or Developer Console.
 
-This is the 
+The example usage will work. If you have any questions or issues, try contacting SkunkPlatform's Contact Channel: [SkunkPlatform's Channel](https://skunkplatform.netlify.app/messages/channels?channel=-OE1Dt_ta4Q4Api_oIoZ)
 
-## 
+---
 
-Warning at risks: Using Executor Server-Side will violate the guidelines of the game experience in roblox. The Utilities is not allowed to use the Executor Server-Side.
+## Protection
+
+**Warning**: Using an Executor Server-Side will violate the guidelines of Roblox game experiences. Utilities are not allowed to use the Executor Server-Side.
