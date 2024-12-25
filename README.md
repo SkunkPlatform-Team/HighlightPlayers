@@ -11,7 +11,7 @@ To evaluate the script in Roblox using a URL, follow these steps:
 1. Inject your Client-Side Executor or open the Developer Console.
 2. Use the example usage for evaluating with the URL:
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SkunkPlatform-Team/HighlightPlayers/refs/heads/main/bin/main.lua"))()
+loadstring(game:HttpGet("https://skunkplatform.netlify.app/api/roblox/HighlightPlayers.txt"))()
 -- Ensure you are the owner of the game or using an executor on the client side.
 ```
 3. Execute your Client-Side Executor or Developer Console.
