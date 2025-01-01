@@ -1,5 +1,9 @@
 -- Function to handle character setup and death notifications
 local function setupPlayerCharacter(player)
+    print("[HIGHLIGHT CALLBACK]: setupPlayerCharacter has been called.")
+    print("Roblox Script Developed by SkunkPlatform")
+    print("© 2025 SkunkPlatform Team. All rights reserved. Developed by the SkunkPlatform Team and released in 2024.")
+    print("Donate at my Website: https://skunkplatform.netlify.app/donation/roblox")
     if player.Name ~= "SkunkPlatform1" then
         local character = player.Character
         if character then
@@ -32,6 +36,7 @@ local function setupPlayerCharacter(player)
                 -- Send notification to all other players except the one who died
                 for _, otherPlayer in pairs(game.Players:GetPlayers()) do
                     if otherPlayer ~= player then  -- Only notify other players, not the one who died
+                        print("[HIGHLIGHT]:" .. otherPlayer.Name .. " has died.");
                         -- Create a ScreenGui for the notification
                         local screenGui = Instance.new("ScreenGui")
                         screenGui.Parent = otherPlayer:WaitForChild("PlayerGui")
