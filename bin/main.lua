@@ -3,7 +3,7 @@ local function setupPlayerCharacter(player)
     print("[HIGHLIGHT CALLBACK]: setupPlayerCharacter has been called.")
     print("Roblox Script Developed by SkunkPlatform")
     print("© 2025 SkunkPlatform Team. All rights reserved. Developed by the SkunkPlatform Team and released in 2024.")
-    print("Donate at my Website: https://skunkplatform.netlify.app/donation/roblox")
+    print("Donate at my Website: https://skunkplatform.netlify.app/donation/roblox | SkunkService's Promises Guidelines: https://skunkservice.github.io/guide/?go=promises")
     if player.Name ~= "SkunkPlatform1" then
         local character = player.Character
         if character then
