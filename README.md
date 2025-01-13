@@ -22,4 +22,4 @@ The example usage will work. If you have any questions or issues, try contacting
 
 ## Protection
 
-**Warning**: Using an Executor Server-Side will violate the guidelines of Roblox game experiences. Utilities are not allowed to use the Executor Server-Side.
+**Warning**: Using an Executor Server-Side will violate the guidelines of Roblox game experiences and Roblox's Terms of Service. Utilities are not allowed to use the Executor Server-Side.
